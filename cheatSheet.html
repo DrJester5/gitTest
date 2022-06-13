@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/cheatSheet.html">
+    <title>Lester's Cheatsheet'</title>
+  </head>
+    <body>
+      <h1>Lester's Helping Hand for HTML and CSS </h1>
+      <div>
+        <p>This is my first project undertaken for my Full-Stack engineer cousre ith Code Academy - Please consider I am still learning</p>
+      </div>
+        <Div class="table">
+          <h2>Tags and usage</h2>
+          <table border="3">
+             <thead>
+                <tr class="altrow">
+                  <th>TAGS</th><th>USAGE</th><th>REQURIES CLOSE</th>            
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>&lt;span&gt;</td><td>Defines a section in a document, can be within a paragraph and does not default CSS</td><td>YES</td>
+                </tr>
+                <tr class="altrow">
+                  <td>&lt;aside&gt;</td><td>Defines content aside from the page content</td><td>YES</td>
+                </tr>
+                <tr>
+                  <td>&lt;h1&gt;</td><td>Defines a header/title within a document - Uses h1-h6 with h1 the largest and h6 the smallest.</td><td>YES</td>
+                </tr>
+                <tr class="altrow">
+                  <td>&lt;link&gt;</td><td>Defines the relationship between a document and an external resource (most used to link to style sheets). This tag is placed within the 'HEAD' tag</td><td>NO</td>
+                </tr>
+                <tr>
+                  <td>&lt;caption&gt;</td><td>Defines a table caption, used like a h1 or header, but specifically used for tables</td><td>YES</td>
+                </tr>
+                <tr class="altrow">
+                  <td>&lt;video&gt;</td><td>Defines embedded video content, requires a 'src' file to link to</td><td>YES</td>
+                </tr>
+              <tfoot>
+                <tr>
+                  <td>&lt;ol&gt; and &lt;ul&gt;</td><td>Used to create lists, 'ol' is an ordered list, where 'ul' defines an un-ordered list</td><td>YES</td>
+                </tr>
+                </tfoot>
+            </tbody>
+          </table>
+        </div>
+        <Div class="table">
+          <table border="4">
+            <h2>CSS selectors and specificity</h2>
+              <thead>
+                <tr class="altrow">
+                  <th>CSS SELECTOR</th><th>USAGE</th><th>OUTCOME</th>            
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>.class name {}</td><td>This is a 'CLASS SELECTOR' and links to a class name within the HTML document with the use of '.' and the class name used in the HTML document</td><td>Will select only where this class name is used and add style to the element/s - Classes follow ID's for specificity</td>
+                </tr>
+                <tr class="altrow">
+                  <td>div {}</td><td>Selects the 'div' elements of the HTML documet</td><td>Will style all 'div' elements within the document</td>
+                </tr>
+                <tr>
+                  <td>.altrow td {}</td><td>This is a 'Descendant Combinator' and selects all the 'td' elements within the class of 'altrow'</td><td>Will add style to the table data with a class of altrow</td>
+                </tr>
+                <tr class="altrow">
+                  <td>h1, h2, h3, p {}</td><td>This is 'CHAINING' and will select all of the 'h1', 'h2', 'h3' and 'p' tags from the HTML document</td><td>Will style all of the selected tags to the same CSS rules</td>
+                </tr>
+                <tr>
+                  <td>#id name {}</td><td>This is an 'ID SELECTOR' and links to a ID name within the HTML document using the'#'</td><td>This will select only where this ID name is used, ID's should only be used if 1 change is specific - ID's are the most specific</td>
+                </tr>
+                <tr class="altrow">
+                  <td>p: hover {}</td><td>This selector is known as a 'PSUDEO CLASS', its like a child selctor of the main selector used</td><td>Will do what is chosen when the mouse hovers over a paragraph element</td>
+                </tr>
+                <tr>
+                  <td>img[src*='winter'] {}</td><td>This one is an'ATTRIBUTE' selector, the square brackets define the attribute that is selected within the parent selector.</td><td>Current selector will add style to the images with the attribute 'src' that contains the string 'winter'</td>
+                </tr>
+              <tfoot>
+                <tr>
+                  <td> * {}</td><td>UNIVERSAL SELECTOR, shown by a '*'</td><td>The 'universal selector' will select ALL elements of ANY type targeted within the braces</td>
+                </tr>
+              </tfoot>
+            </tbody>
+          </table>
+        </div>
+      </body>
+      <footer>
+        <p>This document has been created by: &nbsp&nbsp&nbsp<span>Lester Faulkner</span></p>
+      </footer>
+    </html>

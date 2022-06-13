@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+     background-color: #bbff99;
+  }
+  
+  p {
+    color: red;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #000;
+    background-color: #e699ff;
+    text-align: center;
+    border: 3px dotted #000;
+    opacity: 85%;
+    font-family: "Lucida Console", Courier, monospace;
+    padding: 10px;
+    margin: 20px;
+  }
+    
+  h2 {
+    color: #a64dff;  
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Lucida Console", Courier, monospace;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  caption {
+    color: #000;
+    font-family: "Lucida Console", Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    }
+  
+  }
+  
+  table {
+    background-color: oldlae;
+    margin: auto;
+    border-top: 20px;
+    border: 6px double #800000;
+    width: 700px;
+    border-style: double;
+    border-spacing: 2px;
+  }
+  
+  th {
+    text-decoration: underline;
+  }
+  
+  td {
+    background-color: oldlace;
+  }
+  
+  td, th {
+    padding: 1em;
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  .altrow {
+    background-color: cyan;
+    font-family: 'Times New Roman', Georgia, sans-serif;
+  }
+  
+  .table {
+    padding: 1em;
+    margin: 15px;
+    border: 10px;
+  }
+  
+  footer {
+    font-family: 'comic sans', sans-serif;
+    padding: 20px;
+    border: 2px;
+    margin:20px;
+    text-decoration: underline;
+  }
+  
+  span {
+    color: blue;
+    font-size: 30px;
+    font-family: 'Pinyon Script', cursive;
+  }
+  
